@@ -1,4 +1,4 @@
-class Room(obejct):
+class Room(object):
     def __init__(self, name, description):
         self.name = name
         self.description = description
@@ -92,7 +92,7 @@ three_broomsticks.add_paths({
 
 hogsmeade.add_paths({
     'lay down': generic_death,
-    'disarm': three_brommsticka
+    'disarm': three_broomsticka
 })
 
 START = 'hogsmeade'
